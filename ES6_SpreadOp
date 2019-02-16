@@ -1,0 +1,16 @@
+////////1/////////
+//ES6 Spread operator to join two arrays and to add new elements
+
+const familySmith = ["John", "Jane"];
+
+const familySingh = ["Raj", "Jas"];
+
+const bigFamily = [...familySmith, "Jack", "Bill",...familySingh];
+
+console.log(bigFamily);
+//["John", "Jane", "Jack", "Bill", "Raj", "Jas"]
+
+console.log(`${bigFamily[2]} and ${bigFamily[3]} are new additions to the family.`);
+//Jack and Bill are new additions to the family.
+
+////////2///////
